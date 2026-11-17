@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="title desc">
+  <title id="title">Hello world terminal banner</title>
+  <desc id="desc">Minimal black terminal banner with green code text and pink Hello world prompt.</desc>
+  <defs>
+    <radialGradient id="shade">
+      <stop offset="0" stop-color="#101010"/>
+      <stop offset="1" stop-color="#000000"/>
+    </radialGradient>
+    <filter id="greenGlow" x="-40%" y="-100%" width="180%" height="300%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="pinkGlow" x="-40%" y="-100%" width="180%" height="300%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1280" height="320" fill="url(#shade)"/>
+  <g font-family="'Courier New', monospace" text-anchor="middle">
+    <text x="640" y="132" font-size="34" fill="#00e99a" filter="url(#greenGlow)">&lt;code != run&gt;</text>
+    <text x="640" y="204" font-size="43" fill="#f6f6f6">
+      <tspan fill="#f6f6f6">&gt;&gt;</tspan><tspan fill="#ff6cae" filter="url(#pinkGlow)">Hello world.</tspan><tspan fill="#ff6cae" filter="url(#pinkGlow)">_</tspan>
+    </text>
+  </g>
+</svg>
