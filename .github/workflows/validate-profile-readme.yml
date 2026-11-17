@@ -1,0 +1,90 @@
+name: Validate profile README
+
+on:
+  pull_request:
+    paths:
+      - "README.md"
+      - ".github/workflows/validate-profile-readme.yml"
+  push:
+    branches:
+      - main
+    paths:
+      - "README.md"
+      - ".github/workflows/validate-profile-readme.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  validate-readme:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      - name: Validate profile README structure
+        run: |
+          python - <<'PY'
+          from html.parser import HTMLParser
+          from pathlib import Path
+          import re
+          import sys
+
+          readme = Path("README.md").read_text(encoding="utf-8")
+          errors = []
+
+          required_sections = [
+              "## 🧰 Tech stack",
+              "## 📊 GitHub metrics matrix",
+              "## 🧊 Contribution landscape",
+              "## 🐍 Contribution snake",
+          ]
+          for section in required_sections:
+              if section not in readme:
+                  errors.append(f"Missing section: {section}")
+
+          categories = [
+              "Languages",
+              "Frontend",
+              "Backend & Data",
+              "Tools & Infrastructure",
+          ]
+          for category in categories:
+              if f"<strong>{category}</strong>" not in readme:
+                  errors.append(f"Missing tech category: {category}")
+
+          if readme.count('height="32"') != 4:
+              errors.append("Expected exactly four compact tech-stack icon groups at 32px.")
+          if "Tech I work with & explore" in readme:
+              errors.append("Legacy oversized tech-stack section is still present.")
+
+          if re.search(r"AnatoCare|inSpectre", readme, re.IGNORECASE):
+              errors.append("Private/internal project name found in public profile README.")
+
+          class ImageValidator(HTMLParser):
+              def __init__(self):
+                  super().__init__()
+                  self.errors = []
+
+              def handle_starttag(self, tag, attrs):
+                  if tag != "img":
+                      return
+                  attrs = dict(attrs)
+                  src = attrs.get("src", "")
+                  alt = attrs.get("alt")
+                  if not src.startswith("https://"):
+                      self.errors.append(f"Image source must use HTTPS: {src or '[missing src]'}")
+                  if alt is None:
+                      self.errors.append(f"Image is missing alt text: {src}")
+
+          parser = ImageValidator()
+          parser.feed(readme)
+          errors.extend(parser.errors)
+
+          if errors:
+              print("\n".join(f"::error::{error}" for error in errors))
+              sys.exit(1)
+
+          print("README validation passed: sections, compact tech groups, privacy, and image accessibility.")
+          PY

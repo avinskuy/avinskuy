@@ -35,12 +35,30 @@ I enjoy turning ideas into practical digital products, exploring how systems wor
 - Building modern web experiences.
 - Exploring application security, automation, and open-source tooling.
 
-## 🧰 Tech I work with & explore
+## 🧰 Tech stack
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=rust,ts,js,python,react,vite,html,css,postgres,sqlite,git,github,linux,docker,nginx&perline=5&theme=dark" alt="Technology icons" />
-</div>
-
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>Languages</strong><br />
+      <img src="https://skillicons.dev/icons?i=rust,ts,js,python&theme=dark" height="32" alt="Rust, TypeScript, JavaScript, Python" />
+    </td>
+    <td width="50%" valign="top">
+      <strong>Frontend</strong><br />
+      <img src="https://skillicons.dev/icons?i=react,vite,html,css&theme=dark" height="32" alt="React, Vite, HTML, CSS" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>Backend & Data</strong><br />
+      <img src="https://skillicons.dev/icons?i=nodejs,express,postgres,sqlite&theme=dark" height="32" alt="Node.js, Express, PostgreSQL, SQLite" />
+    </td>
+    <td width="50%" valign="top">
+      <strong>Tools & Infrastructure</strong><br />
+      <img src="https://skillicons.dev/icons?i=git,github,linux,docker,nginx&theme=dark" height="32" alt="Git, GitHub, Linux, Docker, Nginx" />
+    </td>
+  </tr>
+</table>
 ## 📊 GitHub metrics matrix
 
 <div align="center">
