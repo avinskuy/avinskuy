@@ -37,7 +37,6 @@ jobs:
           required_sections = [
               "## 🧰 Tech stack",
               "## 🏅 Badge collection",
-              "## 📊 GitHub stats",
               "## 🧊 Contribution landscape",
               "## 🐍 Contribution snake",
           ]
@@ -59,6 +58,10 @@ jobs:
               errors.append("Expected exactly four compact tech-stack icon groups at 32px.")
           if "Tech I work with & explore" in readme:
               errors.append("Legacy oversized tech-stack section is still present.")
+
+
+          if re.search(r"github-readme-stats|streak-stats\\.demolab\\.com|github-metrics\\.svg", readme, re.IGNORECASE):
+              errors.append("Third-party profile statistics embed found; use GitHub-native contribution activity instead.")
 
           if re.search(r"AnatoCare|inSpectre", readme, re.IGNORECASE):
               errors.append("Private/internal project name found in public profile README.")
