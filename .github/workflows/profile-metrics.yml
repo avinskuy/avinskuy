@@ -25,7 +25,7 @@ jobs:
       - name: Generate GitHub metrics dashboard
         uses: lowlighter/metrics@v3.34
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
           filename: github-metrics.svg
           base: header, community, repositories, metadata
           config_timezone: Asia/Jakarta
