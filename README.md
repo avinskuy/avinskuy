@@ -7,9 +7,9 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=17&duration=2800&pause=900&color=5EEAD4&center=true&vCenter=true&width=650&lines=Exploring+Rust+%26+systems+programming;Learning+backend+engineering;Building+and+learning+in+public" alt="Animated introduction" />
 
   <p>
-    <a href="https://www.instagram.com/avinnn_z/"><img src="https://img.shields.io/badge/Instagram-avinnn__z-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
-    <a href="https://discord.gg/VuSRy849"><img src="https://img.shields.io/badge/Discord-Join%20the%20community-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord community invite" /></a>
-    <a href="https://github.com/avinskuy"><img src="https://img.shields.io/badge/GitHub-avinskuy-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+    <a href="https://www.instagram.com/avinnn_z/"><img src="https://cdn.simpleicons.org/instagram/E4405F" width="28" height="28" alt="Instagram" /></a>&nbsp;&nbsp;
+    <a href="https://discord.gg/VuSRy849"><img src="https://cdn.simpleicons.org/discord/5865F2" width="28" height="28" alt="Discord community" /></a>&nbsp;&nbsp;
+    <a href="https://github.com/avinskuy"><img src="https://cdn.simpleicons.org/github/FFFFFF" width="28" height="28" alt="GitHub" /></a>
   </p>
 </div>
 
@@ -59,10 +59,22 @@ I enjoy turning ideas into practical digital products, exploring how systems wor
     </td>
   </tr>
 </table>
-## 📊 GitHub metrics matrix
+
+## 🏅 Badge collection
+
+<p align="center">
+  <sub>Developer achievements and Pokémon-inspired gym badge collection — coming soon.</sub>
+</p>
+
+## 📊 GitHub stats
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/avinskuy/avinskuy/main/github-metrics.svg" width="100%" alt="GitHub metrics dashboard with contribution calendar, language breakdown, coding habits, achievements, and recent activity" />
+  <img src="https://github-readme-stats.vercel.app/api?username=avinskuy&show_icons=true&hide_border=true&bg_color=00000000&title_color=5EEAD4&icon_color=5EEAD4&text_color=C9D1D9" height="165" alt="GitHub statistics" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=avinskuy&layout=compact&hide_border=true&bg_color=00000000&title_color=5EEAD4&text_color=C9D1D9" height="165" alt="Most used programming languages" />
+</div>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=avinskuy&hide_border=true&background=00000000&ring=5EEAD4&fire=5EEAD4&currStreakLabel=5EEAD4&sideLabels=C9D1D9&dates=8B949E" height="165" alt="GitHub contribution streak" />
 </div>
 
 ## 🧊 Contribution landscape
