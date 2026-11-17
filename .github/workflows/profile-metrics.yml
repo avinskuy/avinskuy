@@ -1,0 +1,42 @@
+name: Generate profile metrics
+
+on:
+  schedule:
+    - cron: "23 18 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-metrics
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Generate GitHub metrics dashboard
+        uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          filename: github-metrics.svg
+          base: header, community, repositories, metadata
+          config_timezone: Asia/Jakarta
+          config_order: isocalendar, languages, habits, achievements, activity
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          plugin_languages: yes
+          plugin_languages_limit: 8
+          plugin_habits: yes
+          plugin_habits_days: 30
+          plugin_habits_charts: yes
+          plugin_habits_charts_type: graph
+          plugin_achievements: yes
+          plugin_activity: yes
+          plugin_activity_limit: 5
+          plugin_activity_days: 14
