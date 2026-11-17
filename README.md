@@ -69,14 +69,16 @@ I enjoy turning ideas into practical digital products, exploring how systems wor
   <img src="https://raw.githubusercontent.com/avinskuy/avinskuy/main/badges/developer-achievements.svg" width="100%" alt="Four original developer achievement badges, currently locked" />
 </div>
 
-<p align="center"><strong>Elemental gym badges</strong></p>
+<p align="center"><strong>Pokémon Gym Badges</strong></p>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/avinskuy/avinskuy/main/badges/elemental-gym-badges.svg" width="100%" alt="Six original Pokémon-inspired elemental gym badges, currently locked" />
+  <img src="https://raw.githubusercontent.com/SteGriff/pokemon-badges/master/badges.png" width="100%" alt="Collection of Pokémon League badges from Kanto, Johto, Hoenn, Sinnoh, and Unova" />
 </div>
 
 <p align="center">
-  <sub>All badges start locked. Unlocks will only be shown after the related milestone is verified. Gym designs are original fan-inspired artwork, not official Pokémon assets.</sub>
+  <sub>Browse the regional SVGs: <a href="https://github.com/SteGriff/pokemon-badges/tree/master/svg">Kanto · Johto · Hoenn · Sinnoh · Unova</a>.</sub>
+  <br />
+  <sub>Badge vector artwork by <a href="https://github.com/SteGriff">Stephen Griffiths</a>, licensed under <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>. Pokémon-related artwork is fan-made and unofficial; this profile is not affiliated with or endorsed by the Pokémon rights holders.</sub>
 </p>
 
 ## 📊 GitHub stats
