@@ -1,48 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="title desc">
-  <title id="title">Hello, World! — avinskuy</title>
-  <desc id="desc">Cyber teal developer banner for avinskuy.</desc>
+  <title id="title">Hello world terminal banner</title>
+  <desc id="desc">Minimal black terminal banner with green code text and pink Hello world prompt.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#02090d"/>
-      <stop offset=".55" stop-color="#061820"/>
-      <stop offset="1" stop-color="#02090d"/>
-    </linearGradient>
-    <linearGradient id="teal" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#5eead4"/>
-      <stop offset=".5" stop-color="#00d9c0"/>
-      <stop offset="1" stop-color="#22d3ee"/>
-    </linearGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" fill="none" stroke="#0b5960" stroke-opacity=".25" stroke-width="1"/>
-      <circle cx="1" cy="1" r="1" fill="#2dd4bf" fill-opacity=".25"/>
-    </pattern>
-    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="5" result="blur"/>
+    <radialGradient id="shade">
+      <stop offset="0" stop-color="#101010"/>
+      <stop offset="1" stop-color="#000000"/>
+    </radialGradient>
+    <filter id="greenGlow" x="-40%" y="-100%" width="180%" height="300%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="pinkGlow" x="-40%" y="-100%" width="180%" height="300%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
       <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
-  <rect width="1280" height="320" fill="url(#bg)"/>
-  <rect width="1280" height="320" fill="url(#grid)"/>
-  <g fill="none" stroke="url(#teal)" stroke-width="2" opacity=".8">
-    <path d="M0 72H110L160 22H320M0 248H150L195 293H360M1280 72H1170L1120 22H960M1280 248H1130L1085 293H920"/>
-    <path d="M0 92H78L112 58H205M1280 92H1202L1168 58H1075M0 228H78L112 262H205M1280 228H1202L1168 262H1075" opacity=".5"/>
-  </g>
-  <g fill="#2dd4bf" opacity=".9">
-    <circle cx="320" cy="22" r="3"/><circle cx="360" cy="293" r="3"/><circle cx="960" cy="22" r="3"/><circle cx="920" cy="293" r="3"/>
-  </g>
-  <g transform="translate(640 62)" filter="url(#glow)">
-    <path d="M-30 -22H30L42 -10V10L30 22H-30L-42 10V-10Z" fill="#06252b" stroke="#2dd4bf" stroke-width="2"/>
-    <text x="0" y="8" text-anchor="middle" font-family="monospace" font-size="25" font-weight="700" fill="#a7fff2">&gt;_</text>
-  </g>
-  <g text-anchor="middle" font-family="Arial, Helvetica, sans-serif">
-    <text x="640" y="164" font-size="76" font-weight="800" letter-spacing="1" fill="#eaffff">HELLO, <tspan fill="url(#teal)" filter="url(#glow)">WORLD!</tspan></text>
-    <path d="M310 190H485M795 190H970" stroke="#14b8a6" stroke-width="2"/>
-    <path d="M490 181l-10 18m28-18-10 18m28-18-10 18M790 181l-10 18m28-18-10 18m28-18-10 18" stroke="#2dd4bf" stroke-width="5"/>
-    <text x="640" y="220" font-size="30" font-weight="500" letter-spacing="11" fill="#d8fffa">AVINSKUY</text>
-    <text x="640" y="263" font-size="16" font-weight="600" letter-spacing="4" fill="#a5c9cc">DEVELOPER  •  BUILDER  •  LIFELONG LEARNER</text>
-  </g>
-  <g fill="#2dd4bf" opacity=".75">
-    <rect x="48" y="38" width="5" height="5"/><rect x="62" y="38" width="5" height="5"/><rect x="76" y="38" width="5" height="5"/>
-    <rect x="1199" y="278" width="5" height="5"/><rect x="1213" y="278" width="5" height="5"/><rect x="1227" y="278" width="5" height="5"/>
+  <rect width="1280" height="320" fill="url(#shade)"/>
+  <g font-family="'Courier New', monospace" text-anchor="middle">
+    <text x="640" y="132" font-size="34" fill="#00e99a" filter="url(#greenGlow)">&lt;code != run&gt;</text>
+    <text x="640" y="204" font-size="43" fill="#f6f6f6">
+      <tspan fill="#f6f6f6">&gt;&gt;</tspan><tspan fill="#ff6cae" filter="url(#pinkGlow)">Hello world.</tspan><tspan fill="#ff6cae" filter="url(#pinkGlow)">_</tspan>
+    </text>
   </g>
 </svg>
