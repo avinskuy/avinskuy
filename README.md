@@ -66,13 +66,13 @@ I enjoy turning ideas into practical digital products, exploring how systems wor
 <p align="center"><strong>Developer achievements</strong></p>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/avinskuy/avinskuy/feat/profile-badge-collections/badges/developer-achievements.svg" width="100%" alt="Four original developer achievement badges, currently locked" />
+  <img src="https://raw.githubusercontent.com/avinskuy/avinskuy/main/badges/developer-achievements.svg" width="100%" alt="Four original developer achievement badges, currently locked" />
 </div>
 
 <p align="center"><strong>Elemental gym badges</strong></p>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/avinskuy/avinskuy/feat/profile-badge-collections/badges/elemental-gym-badges.svg" width="100%" alt="Six original Pokémon-inspired elemental gym badges, currently locked" />
+  <img src="https://raw.githubusercontent.com/avinskuy/avinskuy/main/badges/elemental-gym-badges.svg" width="100%" alt="Six original Pokémon-inspired elemental gym badges, currently locked" />
 </div>
 
 <p align="center">
