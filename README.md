@@ -51,15 +51,10 @@ I enjoy turning ideas into practical digital products, exploring how systems wor
   <img src="https://skillicons.dev/icons?i=rust,ts,js,python,react,vite,html,css,postgres,sqlite,git,github,linux,docker,nginx&perline=5&theme=dark" alt="Technology icons" />
 </div>
 
-## 📊 GitHub analytics
+## 📊 GitHub metrics matrix
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=avinskuy&show_icons=true&hide_border=true&rank_icon=github&theme=tokyonight&bg_color=0b1220&title_color=5eead4&icon_color=5eead4&text_color=cbd5e1" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=avinskuy&layout=compact&hide_border=true&theme=tokyonight&bg_color=0b1220&title_color=5eead4&text_color=cbd5e1" alt="Top languages" />
-</div>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=avinskuy&theme=tokyonight&hide_border=true&background=0b1220&ring=5eead4&fire=5eead4&currStreakLabel=5eead4" alt="GitHub streak" />
+  <img src="https://raw.githubusercontent.com/avinskuy/avinskuy/main/github-metrics.svg" width="100%" alt="GitHub metrics dashboard with contribution calendar, language breakdown, coding habits, achievements, and recent activity" />
 </div>
 
 ## 🧊 Contribution landscape
