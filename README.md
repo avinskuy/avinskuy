@@ -81,16 +81,9 @@ I enjoy turning ideas into practical digital products, exploring how systems wor
   <sub>Badge vector artwork by <a href="https://github.com/SteGriff">Stephen Griffiths</a>, licensed under <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>. Pokémon-related artwork is fan-made and unofficial; this profile is not affiliated with or endorsed by the Pokémon rights holders.</sub>
 </p>
 
-## 📊 GitHub stats
+## 📈 GitHub activity
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=avinskuy&show_icons=true&hide_border=true&bg_color=00000000&title_color=5EEAD4&icon_color=5EEAD4&text_color=C9D1D9" height="165" alt="GitHub statistics" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=avinskuy&layout=compact&hide_border=true&bg_color=00000000&title_color=5EEAD4&text_color=C9D1D9" height="165" alt="Most used programming languages" />
-</div>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=avinskuy&hide_border=true&background=00000000&ring=5EEAD4&fire=5EEAD4&currStreakLabel=5EEAD4&sideLabels=C9D1D9&dates=8B949E" height="165" alt="GitHub contribution streak" />
-</div>
+GitHub's native contribution graph is displayed automatically on this profile. The 3D contribution landscape and contribution snake below provide additional visualizations.
 
 ## 🧊 Contribution landscape
 
