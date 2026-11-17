@@ -23,7 +23,7 @@ jobs:
     timeout-minutes: 20
     steps:
       - name: Generate GitHub metrics dashboard
-        uses: lowlighter/metrics@v3.34
+        uses: ShawnXxy/metrics@1e49d0b8b932624dd7762147e35ccc137eda09f1
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: github-metrics.svg
