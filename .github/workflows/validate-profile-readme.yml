@@ -36,7 +36,8 @@ jobs:
 
           required_sections = [
               "## 🧰 Tech stack",
-              "## 📊 GitHub metrics matrix",
+              "## 🏅 Badge collection",
+              "## 📊 GitHub stats",
               "## 🧊 Contribution landscape",
               "## 🐍 Contribution snake",
           ]
