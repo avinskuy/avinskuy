@@ -1,10 +1,10 @@
 <div align="center">
 
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b132b,55:12343b,100:00bfa6&height=220&section=header&text=AVINSKUY&fontSize=68&fontColor=e6fffb&fontAlignY=36&animation=fadeIn&desc=BUILDING%20DIGITAL%20THINGS&descSize=16&descAlignY=58" width="100%" alt="Avinskuy profile banner" />
+  <img src="https://raw.githubusercontent.com/avinskuy/avinskuy/main/profile-banner.svg" width="100%" alt="Hello, World! — avinskuy developer banner" />
 
   <h3>Developer • Builder • Lifelong Learner</h3>
 
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=17&duration=2800&pause=900&color=5EEAD4&center=true&vCenter=true&width=650&lines=Exploring+Rust+%26+backend+engineering;Building+AnatoCare+%26+inSpectre;Turning+ideas+into+useful+digital+products" alt="Animated introduction" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=17&duration=2800&pause=900&color=5EEAD4&center=true&vCenter=true&width=650&lines=Exploring+Rust+%26+systems+programming;Learning+backend+engineering;Building+and+learning+in+public" alt="Animated introduction" />
 
   <p>
     <a href="https://www.instagram.com/avinnn_z/"><img src="https://img.shields.io/badge/Instagram-avinnn__z-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
@@ -28,22 +28,12 @@ Rust / backend systems / web development / security</code></pre>
 
 I enjoy turning ideas into practical digital products, exploring how systems work, and learning by building. Currently spending time on Rust, backend engineering, and thoughtful product design.
 
-## ⚡ What I'm building
+## 🧭 Current focus
 
-<table>
-  <tr>
-    <td width="50%">
-      <h3><a href="https://anatocare.vercel.app/">AnatoCare</a></h3>
-      <p>An accessible-first health education and visual documentation platform.</p>
-      <a href="https://anatocare.vercel.app/"><img src="https://img.shields.io/badge/Visit%20project-00BFA6?style=flat-square&logo=vercel&logoColor=white" alt="Visit AnatoCare" /></a>
-    </td>
-    <td width="50%">
-      <h3><a href="https://github.com/avinskuy/inSpectre-main">inSpectre</a></h3>
-      <p>Environmental and threat intelligence platform with security-focused tools.</p>
-      <a href="https://github.com/avinskuy/inSpectre-main"><img src="https://img.shields.io/badge/Explore%20repository-00BFA6?style=flat-square&logo=github&logoColor=white" alt="Explore inSpectre" /></a>
-    </td>
-  </tr>
-</table>
+- Exploring Rust and systems programming.
+- Learning backend engineering and API design.
+- Building modern web experiences.
+- Exploring application security, automation, and open-source tooling.
 
 ## 🧰 Tech I work with & explore
 
