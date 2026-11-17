@@ -10,6 +10,7 @@
     <a href="https://www.instagram.com/avinnn_z/"><img src="https://cdn.simpleicons.org/instagram/E4405F" width="28" height="28" alt="Instagram" /></a>&nbsp;&nbsp;
     <a href="https://discord.gg/VuSRy849"><img src="https://cdn.simpleicons.org/discord/5865F2" width="28" height="28" alt="Discord community" /></a>&nbsp;&nbsp;
     <a href="https://github.com/avinskuy"><img src="https://cdn.simpleicons.org/github/FFFFFF" width="28" height="28" alt="GitHub" /></a>
+    &nbsp;&nbsp;<a href="mailto:mafiqrovindo@gmail.com"><img src="https://cdn.simpleicons.org/gmail/EA4335" width="28" height="28" alt="Gmail" /></a>
   </p>
 </div>
 
