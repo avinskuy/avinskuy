@@ -63,8 +63,20 @@ I enjoy turning ideas into practical digital products, exploring how systems wor
 
 ## 🏅 Badge collection
 
+<p align="center"><strong>Developer achievements</strong></p>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/avinskuy/avinskuy/main/badges/developer-achievements.svg" width="100%" alt="Four original developer achievement badges, currently locked" />
+</div>
+
+<p align="center"><strong>Elemental gym badges</strong></p>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/avinskuy/avinskuy/main/badges/elemental-gym-badges.svg" width="100%" alt="Six original Pokémon-inspired elemental gym badges, currently locked" />
+</div>
+
 <p align="center">
-  <sub>Developer achievements and Pokémon-inspired gym badge collection — coming soon.</sub>
+  <sub>All badges start locked. Unlocks will only be shown after the related milestone is verified. Gym designs are original fan-inspired artwork, not official Pokémon assets.</sub>
 </p>
 
 ## 📊 GitHub stats
